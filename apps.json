@@ -1,0 +1,60 @@
+{
+  "name": "Kiike Repo",
+  "subtitle": "Test.",
+  "description": "Welcome to my source! Here you'll find all of my apps.",
+  "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
+  "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
+  "website": "https://example.com",
+  "tintColor": "#4185A9",
+  "featuredApps": [
+      "com.mr-brightside.myParcel"
+  ],
+  "apps": [
+      {
+          "name": "Parcel",
+          "bundleIdentifier": "com.mr-brightside.myParcel",
+          "developerName": "Ivan Pavlov",
+          "subtitle": "Seguimiento de envios.",
+          "localizedDescription": "This is an awesome app only available on AltStore.",
+          "iconURL": "https://i.ibb.co/XSSCHt2/230x0w.png",
+          "tintColor": "#D6AF74",
+          "screenshots": [
+              "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/41/38/d2/4138d2e2-bd1a-1a0d-2275-2101b0bd3d71/pr_source.png/230x0w.webp",
+              "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/44/6d/72/446d7298-9665-0f1e-a7b5-077a2c9c3ca5/e6739794-b2d6-4c73-a868-1ec973c30398_iPhone-Max-ES-MX-2.png/230x0w.webp"
+          ],
+          "versions": [
+              {
+                  "version": "7.9.1",
+                  "date": "2023-01-01T09:00:00-08:00",
+                  "size": 31900,
+                  "downloadURL": "https://example.com/myapp_v1.1.ipa",
+                  "localizedDescription": "New features and bug fixes.",
+                  "minOSVersion": "12.0"
+              }
+          ],
+          "appPermissions": {
+              "entitlements": [
+                  "com.apple.security.application-groups",
+                  "com.apple.developer.siri"
+              ],
+              "privacy": {
+                  "NSPhotoLibraryUsageDescription": "App saves photos to your Photo Library.",
+                  "NSCameraUsageDescription": "App uses camera to take photos.",
+                  "NSMicrophoneUsageDescription": "App uses microphone to record video."
+              }
+          }
+      }
+  ],
+  "news": [
+      {
+          "title": "New Feature Announcement",
+          "identifier": "new_feature",
+          "caption": "Introducing a new feature in AltStore!",
+          "date": "2023-03-15",
+          "tintColor": "#5CA399",
+          "imageURL": "https://example.com/new_feature_image.png",
+          "notify": true,
+          "url": "https://example.com/new_feature_details"
+      }
+  ]
+}
