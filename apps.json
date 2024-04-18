@@ -4,7 +4,7 @@
   "description": "Welcome to my source! Here you'll find all of my apps.",
   "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
   "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
-  "website": "https://example.com",
+  "website": "https://github.com/enriicsolaa/kiikerepo",
   "tintColor": "#4185A9",
   "featuredApps": [
       "com.mr-brightside.myParcel"
@@ -27,7 +27,7 @@
                   "version": "7.9.1",
                   "date": "2023-01-01T09:00:00-08:00",
                   "size": 31900,
-                  "downloadURL": "https://example.com/myapp_v1.1.ipa",
+                  "downloadURL": "https://github.com/enriicsolaa/kiikerepo/raw/main/com.mr-brightside.myParcel-7.9.1.ipa",
                   "localizedDescription": "New features and bug fixes.",
                   "minOSVersion": "12.0"
               }
